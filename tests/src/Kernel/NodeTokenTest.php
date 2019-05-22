@@ -28,7 +28,7 @@ class NodeTokenTest extends NodeTest {
       'type' => 'page',
       'title' => 'Source Title',
       'revision_log' => $this->randomMachineName(),
-      'path' => ['alias' => '/content/source-node']
+      'path' => ['alias' => '/content/source-node'],
     ]);
     $page->save();
     $tokens = [
