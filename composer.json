@@ -1,0 +1,17 @@
+{
+    "name": "drupal/node_token",
+    "description": "Provides dedicated tokent types for each node bundle.",
+    "type": "drupal-module",
+    "authors": [
+        {
+            "name": "Vyacheslav Malchik (validoll)",
+            "homepage": "https://www.drupal.org/u/validoll",
+            "role": "Maintainer"
+        }
+    ],
+    "license": "GPL-2.0-or-later",
+    "minimum-stability": "dev",
+    "require": {
+        "drupal/token": "~1.0"
+    }
+}

@@ -1,0 +1,7 @@
+name: Node Token
+type: module
+description: Provides dedicated tokent types for each node bundle.
+core: 8.x
+package: Token
+dependencies:
+  - drupal:token
