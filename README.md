@@ -33,8 +33,10 @@ For Drupal core node token you will use it as
   $body = Drupal::token()->replace('[node:body]', ['node' => $node]);
 ```
 
-But if you need to use 2 or more nodes with different node type in one token replacement you can yse this module.
-The module provides dedicate token type for each node type like `node-{node_type}`
+But if you need to use 2 or more nodes with different node type in one token 
+replacement you can yse this module.
+The module provides dedicate token type for each node type 
+like `node-{node_type}`
 
 ```php
   $body = Drupal::token()->replace(
@@ -48,7 +50,8 @@ The module provides dedicate token type for each node type like `node-{node_type
 
 ### Token tree
 
-For Drupal core node token type in token tree you will see fields of all node types.
+For Drupal core node token type in token tree you will see fields 
+of all node types.
 For example above you will see
 
 * Node
@@ -70,8 +73,10 @@ If you have many node types with many fields token tree will be very large.
 
 ### Multiple instances of the same token type
 
-This module doesn't provide a possibility to use multiple instances of the same token type in token replacement.
-Pls see https://www.drupal.org/project/drupal/issues/1920688 for more information.
+This module doesn't provide a possibility to use multiple instances 
+of the same token type in token replacement.
+Pls see https://www.drupal.org/project/drupal/issues/1920688 
+for more information.
 
 
 REQUIREMENTS
