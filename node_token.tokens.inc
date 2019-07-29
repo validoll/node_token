@@ -103,7 +103,7 @@ function node_token_tokens($type, $tokens, array $data, array $options, Bubbleab
     ->getStorage('node_type')
     ->loadMultiple();
 
-  if (isset($types[$bundle]) && $data[$type]) {
+  if (isset($types[$bundle]) && !empty($data[$type])) {
     // Replace custom token as node token.
     $data['node'] = $data[$type];
     $replacements = \Drupal::moduleHandler()->invokeAll(
